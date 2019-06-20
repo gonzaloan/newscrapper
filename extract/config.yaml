@@ -1,0 +1,19 @@
+news_sites:
+  eluniversal:
+    url: http://www.eluniversal.com.mx
+    queries:
+      homepage_article_links: '.field-content a'
+      article_body: '.field-name-body'
+      article_title: '.pane-content h1'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: '.articulo-titulo a'
+      article_body: '.articulo-cuerpo'
+      article_title: '.articulo-titulo'
+  latercera:
+    url: https://www.latercera.com
+    queries:
+      homepage_article_links: '.lista_mas_visto li a'
+      article_body: '.content-conteniendo-contenido'
+      article_title: '.col-xs-12 .m-top-30'
